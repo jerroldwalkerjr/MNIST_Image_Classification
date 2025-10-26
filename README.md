@@ -7,7 +7,7 @@ For a detailed explanation of this project’s goals, implementation, and result
 data/
     (contains digit subfolders 0–9)
 report/
-    MNIST Image Classification Report_Jerrold Walker.pf (Full project report)
+    MNIST Image Classification Report_Jerrold Walker.pdf (Full project report)
 src/
     data_utils.py (Loads and preprocesses MNIST images)
     eval_utils.py (Provides visualization tools)
