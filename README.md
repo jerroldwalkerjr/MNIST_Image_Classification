@@ -31,9 +31,10 @@ linear_weights.png (Visualization of learned weights from the NumPy linear class
 - Matplotlib (visualizations for weight maps and confusion matrices)
 
 ## How to Run
-1. Download/clone the repository
+1. Download or clone the repository
 2. Install dependencies: pip install numpy pillow matplotlib torch torchvision scikit-learn
-3. Run the main script: "MNIST_Image_Classification\src\main.py"
+3. Run the main script:
+   "MNIST_Image_Classification\src\main.py"
 The script will run all models (KNN, Naive Bayes, Linear NumPy, PyTorch Linear/MLP/CNN).
 Outputs include validation accuracies and a saved weight visualization (linear_weights.png).
-4. Optional: For dataset subsmpling toggle "USE_SUBSAMPLE = False" in line 14 of "main.py" to True
+5. Optional: For dataset subsmpling toggle "USE_SUBSAMPLE = False" in line 14 of "main.py" to True
