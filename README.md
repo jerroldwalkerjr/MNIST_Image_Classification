@@ -1,7 +1,7 @@
 # MNIST_Image_Classification
-This project implements image classification for the MNIST handwritten digit dataset, comparing classical machine learning techniques (K-Nearest Neighbors, Naive Bayes, Linear Regression) with modern deep learning approaches (Linear Model, Multilayer Perceptron, Convolutional Neural Network).
+This project implements image classification for the MNIST handwritten digit dataset, comparing classical machine learning techniques (**K-Nearest Neighbors**, **Naive Bayes**, **Linear Regression**) with modern deep learning approaches (**Linear Model**, **Multilayer Perceptron**, **Convolutional Neural Network**).
 
-For a detailed explanation of this project’s goals, implementation, and results, see "MNIST_Image_Classification\report\MNIST Image Classification Report_Jerrold Walker.pdf"
+For a detailed explanation of this project’s goals, implementation, and results, see **"MNIST_Image_Classification\report\MNIST Image Classification Report_Jerrold Walker.pdf"**
 
 ## Project Structure
 data/
@@ -34,7 +34,7 @@ linear_weights.png (Visualization of learned weights from the NumPy linear class
 1. Download or clone the repository
 2. Install dependencies: pip install numpy pillow matplotlib torch torchvision scikit-learn
 3. Run the main script:
-   "MNIST_Image_Classification\src\main.py"
+   **"MNIST_Image_Classification\src\main.py"**
 The script will run all models (KNN, Naive Bayes, Linear NumPy, PyTorch Linear/MLP/CNN).
 Outputs include validation accuracies and a saved weight visualization (linear_weights.png).
 5. Optional: For dataset subsampling toggle "USE_SUBSAMPLE = False" in line 14 of "main.py" to True
