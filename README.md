@@ -5,10 +5,13 @@ For a detailed explanation of this project’s goals, implementation, and result
 
 ## Project Structure
 data/
+    
     (contains digit subfolders 0–9)
 report/
+    
     MNIST Image Classification Report_Jerrold Walker.pdf (Full project report)
 src/
+    
     data_utils.py (Loads and preprocesses MNIST images)
     eval_utils.py (Provides visualization tools)
     knn_numpy.py (K-Nearest Neighbors classifier using NumPy)
