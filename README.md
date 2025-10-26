@@ -27,7 +27,7 @@ linear_weights.png (Visualization of learned weights from the NumPy linear class
 - NumPy (numerical computing and linear algebra for NumPy-based models)
 - PyTorch (deep learning library for MLP and CNN models)
 - Torchvision (dataset handling and transforms for PyTorch)
-- PIL / Pillow (image loading and preprocessing)
+- PIL/Pillow (image loading and preprocessing)
 - Matplotlib (visualizations for weight maps and confusion matrices)
 
 ## How to Run
