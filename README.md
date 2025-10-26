@@ -37,4 +37,4 @@ linear_weights.png (Visualization of learned weights from the NumPy linear class
    "MNIST_Image_Classification\src\main.py"
 The script will run all models (KNN, Naive Bayes, Linear NumPy, PyTorch Linear/MLP/CNN).
 Outputs include validation accuracies and a saved weight visualization (linear_weights.png).
-5. Optional: For dataset subsmpling toggle "USE_SUBSAMPLE = False" in line 14 of "main.py" to True
+5. Optional: For dataset subsampling toggle "USE_SUBSAMPLE = False" in line 14 of "main.py" to True
