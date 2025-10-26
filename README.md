@@ -6,7 +6,7 @@ For a detailed explanation of this project’s goals, implementation, and result
 ## Project Structure
 data/
     
-    (contains digit subfolders 0–9)
+    (where MNIST dataset should be placed. Should contain digit subfolders 0–9)
 report/
     
     MNIST Image Classification Report_Jerrold Walker.pdf (Full project report)
@@ -32,8 +32,9 @@ linear_weights.png (Visualization of learned weights from the NumPy linear class
 
 ## How to Run
 1. Download or clone the repository
-2. Install dependencies: pip install numpy pillow matplotlib torch torchvision scikit-learn
-3. Run the main script:
+2. Download the MNIST dataset and add to the "data" folder (can be found here: https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
+3. Install dependencies: pip install numpy pillow matplotlib torch torchvision scikit-learn
+4. Run the main script:
    **"MNIST_Image_Classification\src\main.py"**
 The script will run all models (KNN, Naive Bayes, Linear NumPy, PyTorch Linear/MLP/CNN).
 Outputs include validation accuracies and a saved weight visualization (linear_weights.png).
